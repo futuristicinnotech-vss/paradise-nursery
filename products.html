@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Paradise Nursery</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header-title">Paradise Nursery</h1>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link active">Shop</a>
+            </nav>
+            <a href="cart.html" class="cart-icon-link">
+                <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="products-page">
+        <h2 class="page-title">Our Plants</h2>
+        
+        <!-- Tropical Plants Category -->
+        <section class="category">
+            <h3 class="category-title">Tropical Plants</h3>
+            <div class="products-grid" id="tropical-plants">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Succulents Category -->
+        <section class="category">
+            <h3 class="category-title">Succulents</h3>
+            <div class="products-grid" id="succulents">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Flowering Plants Category -->
+        <section class="category">
+            <h3 class="category-title">Flowering Plants</h3>
+            <div class="products-grid" id="flowering-plants">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Foliage Plants Category -->
+        <section class="category">
+            <h3 class="category-title">Foliage Plants</h3>
+            <div class="products-grid" id="foliage-plants">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
