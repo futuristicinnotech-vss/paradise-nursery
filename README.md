@@ -77,7 +77,7 @@ cd paradise-nursery
 ## Deployment
 
 This project is deployed using GitHub Pages. Visit the live site at:
-https://yourusername.github.io/paradise-nursery/
+https://futuristicinnotech-vss.github.io/paradise-nursery/
 
 ## License
 
